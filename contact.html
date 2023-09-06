@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Me contacter</h1>
+    <ul>
+        <li>Mon Adresse</li>
+        <li>Mon courriel : laminebarry0109@gmail.com</li>
+        <li>Mon num&eacute;ro de t&eacute;l&eacute;phone : 1 418 281 5120</li>
+    </ul>
+
+    <hr>
+
+    <form action="mailto:laminebarry0109@gmail.com" method="post" enctype="text/plain">
+        <label for="nomPersonne">Votre nom&nbsp;:</label>
+        <input type="text" name="nomPersonne" id="nomPersonne" value="Mamadou">
+<br><br>
+        <label for="courrielPersonne">Votre courriel&nbsp;:</label>
+        <input type="email" name="courrielPersonne" id="courrielPersonne" placeholder="écrire votre courriel" required>
+<br><br>
+<label for="votreMessage">Votre Message&nbsp;</label>
+<br>
+<textarea name="votreMessage" id="votreMessage" cols="30" rows="10"></textarea>
+<br>
+
+
+        <input type="submit" name="soumettre" value="soumettre" id="">
+    </form>
+</body>
+</html>
